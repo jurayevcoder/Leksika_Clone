@@ -1,6 +1,6 @@
 <template>
-  <div class="container mx-auto">
-    <div class="wrapper p-6 flex">
+  <div class="container px-20 mx-auto">
+    <div class="wrapper flex">
       <div class="flex gap-10">
         <div class="flex flex-col gap-5 w-[738px]">
           <div class="relative">
@@ -12,7 +12,7 @@
             />
           </div>
 
-          <div class="flex gap-5 bg-white rounded-[18px] p-4 w-full">
+          <div class="flex gap-5 bg-white rounded-[18px] p-4">
             <img src="../../img/book.png" alt="" class="w-[271px] h-[225px]" />
             <div class="flex flex-col gap-5">
               <div class="text-[#8C8B8B] flex items-center gap-10">
@@ -36,7 +36,7 @@
             </div>
           </div>
 
-          <div class="flex gap-5 bg-white rounded-[18px] p-4 w-[738px]">
+          <div class="flex gap-5 bg-white rounded-[18px] p-4">
             <img src="../../img/book.png" alt="" class="w-[271px] h-[225px]" />
             <div class="flex flex-col gap-5">
               <div class="text-[#8C8B8B] flex items-center gap-10">
@@ -60,7 +60,7 @@
             </div>
           </div>
 
-          <div class="flex gap-5 bg-white rounded-[18px] p-4 w-[738px]">
+          <div class="flex gap-5 bg-white rounded-[18px] p-4">
             <img src="../../img/book.png" alt="" class="w-[271px] h-[225px]" />
             <div class="flex flex-col gap-5">
               <div class="text-[#8C8B8B] flex items-center gap-10">
@@ -84,7 +84,7 @@
             </div>
           </div>
 
-          <div class="flex gap-5 bg-white rounded-[18px] p-4 w-[738px]">
+          <div class="flex gap-5 bg-white rounded-[18px] p-4">
             <img src="../../img/book.png" alt="" class="w-[271px] h-[225px]" />
             <div class="flex flex-col gap-5">
               <div class="text-[#8C8B8B] flex items-center gap-10">
@@ -108,7 +108,7 @@
             </div>
           </div>
 
-          <div class="flex gap-5 bg-white rounded-[18px] p-4 w-[738px]">
+          <div class="flex gap-5 bg-white rounded-[18px] p-4">
             <img src="../../img/book.png" alt="" class="w-[271px] h-[225px]" />
             <div class="flex flex-col gap-5">
               <div class="text-[#8C8B8B] flex items-center gap-10">
@@ -132,7 +132,7 @@
             </div>
           </div>
 
-          <div class="flex gap-5 bg-white rounded-[18px] p-4 w-[738px]">
+          <div class="flex gap-5 bg-white rounded-[18px] p-4">
             <img src="../../img/book.png" alt="" class="w-[271px] h-[225px]" />
             <div class="flex flex-col gap-5">
               <div class="text-[#8C8B8B] flex items-center gap-10">
@@ -223,12 +223,36 @@
           <div class="flex flex-col gap-5">
             <h1 class="text-[24px] font-bold">Tags</h1>
             <div class="flex gap-5 text-[#AAAAAA] flex-wrap">
-              <p class="bg-white py-4 px-5 w-full rounded-full">English (2)</p>
-              <p class="bg-white py-4 px-5 rounded-full">Freelancer (5)</p>
-              <p class="bg-white py-4 px-5 rounded-full">Vocabulary (5)</p>
-              <p class="bg-white py-4 px-5 rounded-full">Uzbek grammar (2)</p>
-              <p class="bg-white py-4 px-5 rounded-full">English grammar (5)</p>
-              <p class="bg-white py-4 px-5 rounded-full">Imlo (2)</p>
+              <button
+                class="bg-white py-4 px-5 rounded-full hover:bg-[#01756C] hover:text-white"
+              >
+                English (2)
+              </button>
+              <button
+                class="bg-white py-4 px-5 rounded-full hover:bg-[#01756C] hover:text-white"
+              >
+                Freelancer (5)
+              </button>
+              <button
+                class="bg-white py-4 px-5 rounded-full hover:bg-[#01756C] hover:text-white"
+              >
+                Vocabulary (5)
+              </button>
+              <button
+                class="bg-white py-4 px-5 rounded-full hover:bg-[#01756C] hover:text-white"
+              >
+                Uzbek grammar (2)
+              </button>
+              <button
+                class="bg-white py-4 px-5 rounded-full hover:bg-[#01756C] hover:text-white"
+              >
+                English grammar (5)
+              </button>
+              <button
+                class="bg-white py-4 px-5 rounded-full hover:bg-[#01756C] hover:text-white"
+              >
+                Imlo (2)
+              </button>
             </div>
           </div>
         </div>

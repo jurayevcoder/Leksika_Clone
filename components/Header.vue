@@ -1,6 +1,6 @@
 <template>
     <header class="bg-[#01756C]">
-      <div class="container mx-auto">
+      <div class="container mx-auto px-20">
         <nav class="flex justify-between h-[100px] items-center">
           <NuxtLink to="/" class="text-2xl font-bold logo"
             ><img src="../img/Logo.png" alt=""></NuxtLink
@@ -21,9 +21,9 @@
   <script setup></script>
 
   <style lang="scss" scoped>
-  .router-link-exact-active {
+  .router-link-exact-active{
     font-weight: 800;
-
+    border-bottom: 1px solid white;
   }
   .logo {
     text-decoration: none;
