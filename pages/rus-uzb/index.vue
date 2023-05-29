@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto">
+  <div class="container mx-auto px-20 mt-28">
     <div class="wrapper p-6 flex flex-col items-center pt-12">
       <div class="relative bg-white w-[847px] items-center p-1 rounded-full">
         <button

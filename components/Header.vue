@@ -1,5 +1,5 @@
 <template>
-    <header class="bg-[#01756C]">
+    <header class="bg-[#01756C] fixed z-50 w-full">
       <div class="container mx-auto px-20">
         <nav class="flex justify-between h-[100px] items-center">
           <NuxtLink to="/" class="text-2xl font-bold logo"
@@ -27,6 +27,7 @@
   }
   .logo {
     text-decoration: none;
+    border: none;
   }
 
   .font-fm{
