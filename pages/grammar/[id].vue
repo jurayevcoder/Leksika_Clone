@@ -1,10 +1,10 @@
 <template>
   <div class="container mx-auto px-20 mt-28">
-    <div class="wrapper flex gap-5">
-      <div class="w-[738px] flex flex-col gap-5">
+    <div class="wrapper flex items-center justify-center">
+      <div class="w-[1063px] flex flex-col gap-5">
         <div class="bg-white rounded-[18px] flex flex-col justify-center gap-5 px-9 py-6">
-          <h1 class="text-[32px] font-bold text-center">
-            Ingliz tilidagi so'zlarni eslab qolishing 11 ta samarali usuli
+          <h1 class="text-[32px] font-bold">
+            Unit 1. Present Continuous (I’m doing)
           </h1>
           <p>
             &nbsp;&nbsp;&nbsp;&nbsp;Chet tilini o’rganishda so’z boyligini doimiy ravishda
@@ -14,7 +14,7 @@
             tilidagi yangi so’zlarni samaraliroq yodlab olishga yordam beradigan o’n bitta
             maslahatni taklif qilamiz.
           </p>
-          <img src="../../img/book-big.png" alt="" />
+          <img src="../../img/book-row.png" alt="" />
           <div class="flex items-center gap-4">
             <i class="bx bxs-circle text-[10px]"></i>
             <h1 class="text-[24px] font-bold">So'zlarni kontekstda yodlang</h1>
@@ -97,27 +97,27 @@
             lug’atdan ko’rib chiqamiz:
           </p>
           <div class="relative overflow-x-auto">
-            <table class="text-[16px]">
+            <table class="text-[16px] w-full text-center">
               <tbody>
                 <tr class="bg-white border border-black">
-                  <th scope="row" class="border border-black py-[15px] px-[115px]">
+                  <th scope="row" class="border- border-black py-4">
                     respectful
                   </th>
-                  <td class="border border-black py-[15px] px-[100px]">
+                  <td class="border border-black ">
                     hurmatli, izzatli
                   </td>
                 </tr>
                 <tr class="bg-white border border-black">
-                  <th scope="row" class="border border-black py-[15px] px-[115px]">
+                  <th scope="row" class="border border-black py-4">
                     to respect
                   </th>
-                  <td class="border border-black py-[15px] px-[100px]">hurmat qilmoq</td>
+                  <td class="border border-black">hurmat qilmoq</td>
                 </tr>
                 <tr class="bg-white border border-black">
-                  <th scope="row" class="border border-black py-[15px] px-[115px]">
+                  <th scope="row" class="border border-black py-4">
                     respectable
                   </th>
-                  <td class="border border-black py-[15px] px-[100px]">
+                  <td class="border border-black ">
                     savlatli, hurmatli
                   </td>
                 </tr>
@@ -194,7 +194,24 @@
           </p>
         </div>
 
-        <div class="bg-white rounded-[18px] shadow-lg px-9 py-6 flex items-center justify-between">
+        <div
+          class="bg-white rounded-[18px] shadow-lg px-9 py-6"
+        >
+          <div class="text-[#8C8B8B] flex items-center gap-96">
+            <div class="flex flex-col items-start justify-center gap-2">
+              <p class="text-[16px]">Previous lesson</p>
+              <p class="text-black text-[18px]">Lesson title here</p>
+            </div>
+            <div class="flex flex-col items-start justify-center gap-2 text-[16px]">
+              <p class="text-[16px]">Next lesson2</p>
+              <p class="text-black text-[18px]">Lesson title here</p>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="bg-white rounded-[18px] shadow-lg px-9 py-6 flex items-center justify-between"
+        >
           <div class="text-[#8C8B8B] flex items-center gap-10">
             <div class="flex items-center gap-1 text-[16px]">
               <i class="bx bx-calendar-event"></i>
@@ -206,92 +223,10 @@
             </div>
           </div>
           <div class="flex items-center gap-4">
-            <a href="#"><img src="../../img/telegram.png" alt=""></a>
-            <a href="#"><img src="../../img/fecebook.png" alt=""></a>
-            <a href="#"><img src="../../img/instagram.png" alt=""></a>
-            <a href="#"><img src="../../img/twitter.png" alt=""></a>
-          </div>
-        </div>
-      </div>
-
-      <div class="flex flex-col gap-5 w-[522px]">
-        <div class="mt-2 flex flex-col justify-center gap-5">
-          <h1 class="text-[24px] font-bold">Latest articles</h1>
-          <div
-            class="bg-white rounded-[18px] p-4 text-[#AAAAAA] text-[14px] flex flex-col gap-5 w-full"
-          >
-            <div class="flex items-center gap-3">
-              <i class="bx bxs-circle"></i>
-              <a href="#" class="hover:border-b hover:text-[#01756C] border-[#01756C]"
-                >Ingliz tilidagi so'zlarni eslab qolishning 11 ta samarali usuli</a
-              >
-            </div>
-            <div class="flex items-center gap-3">
-              <i class="bx bxs-circle"></i>
-              <a href="#" class="hover:border-b hover:text-[#01756C] border-[#01756C]"
-                >Ingliz tilini samarali o'rganish uchun 7 ta maslahat</a
-              >
-            </div>
-            <div class="flex items-center gap-3">
-              <i class="bx bxs-circle"></i>
-              <a href="#" class="hover:border-b hover:text-[#01756C] border-[#01756C]"
-                >O‘zbek tilining asosiy imlo qoidalari</a
-              >
-            </div>
-            <div class="flex items-center gap-3">
-              <i class="bx bxs-circle"></i>
-              <a href="#" class="hover:border-b hover:text-[#01756C] border-[#01756C]"
-                >Upwork'da ish boshlash</a
-              >
-            </div>
-            <div class="flex items-center gap-3">
-              <i class="bx bxs-circle"></i>
-              <a href="#" class="hover:border-b hover:text-[#01756C] border-[#01756C]"
-                >Most Confused Words in English</a
-              >
-            </div>
-            <div class="flex items-center gap-3">
-              <i class="bx bxs-circle"></i>
-              <a href="#" class="hover:border-b hover:text-[#01756C] border-[#01756C]"
-                >Most Confused Words in English</a
-              >
-            </div>
-          </div>
-        </div>
-
-        <div class="flex flex-col gap-5">
-          <h1 class="text-[24px] font-bold">Tags</h1>
-          <div class="flex gap-5 text-[#AAAAAA] flex-wrap">
-            <button
-              class="bg-white py-4 px-5 rounded-full hover:bg-[#01756C] hover:text-white"
-            >
-              English (2)
-            </button>
-            <button
-              class="bg-white py-4 px-5 rounded-full hover:bg-[#01756C] hover:text-white"
-            >
-              Freelancer (5)
-            </button>
-            <button
-              class="bg-white py-4 px-5 rounded-full hover:bg-[#01756C] hover:text-white"
-            >
-              Vocabulary (5)
-            </button>
-            <button
-              class="bg-white py-4 px-5 rounded-full hover:bg-[#01756C] hover:text-white"
-            >
-              Uzbek grammar (2)
-            </button>
-            <button
-              class="bg-white py-4 px-5 rounded-full hover:bg-[#01756C] hover:text-white"
-            >
-              English grammar (5)
-            </button>
-            <button
-              class="bg-white py-4 px-5 rounded-full hover:bg-[#01756C] hover:text-white"
-            >
-              Imlo (2)
-            </button>
+            <a href="#"><img src="../../img/telegram.png" alt="" /></a>
+            <a href="#"><img src="../../img/fecebook.png" alt="" /></a>
+            <a href="#"><img src="../../img/instagram.png" alt="" /></a>
+            <a href="#"><img src="../../img/twitter.png" alt="" /></a>
           </div>
         </div>
       </div>
@@ -302,3 +237,4 @@
 <script setup></script>
 
 <style lang="scss" scoped></style>
+\

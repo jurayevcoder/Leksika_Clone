@@ -1,10 +1,6 @@
 <template>
   <div class="container mx-auto mt-28 px-20">
-    <div class="wrapper p-6 border border-dashed border-green-400">
-      <div class="p-4 shadow bg-white flex justify-between items-center">
-        <h2 class="font-bold uppercase">Home</h2>
-      </div>
-    </div>
+    <div class="wrapper"></div>
   </div>
 </template>
 
@@ -12,6 +8,6 @@
 
 <style lang="scss">
 body {
-  background-color: #F1F4F6;
+  background-color: #f1f4f6;
 }
 </style>

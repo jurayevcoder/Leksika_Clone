@@ -1,6 +1,6 @@
 <template>
   <div class="container px-20 mx-auto mt-28">
-    <div class="wrapper flex">
+    <div class="wrapper flex gap-5">
       <div class="flex flex-col gap-5 w-[738px]">
         <div class="relative">
           <i class="bx bx-search absolute left-8 top-5 text-[#AAAAAA] text-[25px]"></i>
@@ -165,7 +165,7 @@
         </div>
       </div>
 
-      <div class="flex flex-col gap-5 w-[522px] fixed z-10 right-[350px]">
+      <div class="flex flex-col gap-5 w-[522px]">
         <div class="mt-7 flex flex-col justify-center gap-5">
           <h1 class="text-[24px] font-bold">Latest articles</h1>
           <div

@@ -9,9 +9,9 @@
           <ul class="flex gap-20 text-white font-normal font-fm">
             <li><NuxtLink class="flex items-center gap-1" to="/eng-uzb"><p>ENG</p><i class='bx bx-transfer-alt'></i><p>UZB</p></NuxtLink></li>
             <li><NuxtLink class="flex items-center gap-1" to="/rus-uzb"><p>RUS</p><i class='bx bx-transfer-alt'></i><p>UZB</p></NuxtLink></li>
-            <li><NuxtLink to="/articles">Articles</NuxtLink></li>
-            <li><NuxtLink to="/grammar">Grammar</NuxtLink></li>
-            <li><NuxtLink to="/about">About us</NuxtLink></li>
+            <li><NuxtLink class="pb-1" to="/articles">Articles</NuxtLink></li>
+            <li><NuxtLink class="pb-1" to="/grammar">Grammar</NuxtLink></li>
+            <li><NuxtLink class="pb-1" to="/about">About us</NuxtLink></li>
           </ul>
         </nav>
       </div>
@@ -23,7 +23,7 @@
   <style lang="scss" scoped>
   .router-link-exact-active{
     font-weight: 800;
-    border-bottom: 1px solid white;
+    border-bottom: 2px solid #39E991;
   }
   .logo {
     text-decoration: none;
